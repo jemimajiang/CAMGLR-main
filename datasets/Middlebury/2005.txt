@@ -1,0 +1,12 @@
+Middlebury/2005/Laundry/disp5.png
+Middlebury/2005/Laundry/disp1.png
+Middlebury/2005/Dolls/disp5.png
+Middlebury/2005/Dolls/disp1.png
+Middlebury/2005/Art/disp5.png
+Middlebury/2005/Art/disp1.png
+Middlebury/2005/Reindeer/disp5.png
+Middlebury/2005/Reindeer/disp1.png
+Middlebury/2005/Books/disp5.png
+Middlebury/2005/Books/disp1.png
+Middlebury/2005/Moebius/disp5.png
+Middlebury/2005/Moebius/disp1.png
