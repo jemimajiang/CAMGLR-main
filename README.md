@@ -15,13 +15,13 @@
 
 ## Preparing Data
 1. To build **training** dataset, you'll also need following datasets. All the images needs to be converted to **gray scale**.
-* [Middlebury](http://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip)
-* [BSD68](http://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip)
-* [Waterloo](http://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip)
+* [Middlebury2006](https://vision.middlebury.edu/stereo/data/scenes2006/)
+* [BSD68]()
+* [Waterloo](https://ivc.uwaterloo.ca/database/WaterlooExploration/exploration_database_and_code.rar)
 
 2. To build **validation/testing** dataset, you'll also need following datasets. All the images needs to be cropped into a square, and resize to **70*70**.
-* [Middlebury](https://uofi.box.com/shared/static/kfahv87nfe8ax910l85dksyl2q212voc.zip)
-* [MNIST](https://uofi.box.com/shared/static/kfahv87nfe8ax910l85dksyl2q212voc.zip)
+* [Middlebury2005](https://vision.middlebury.edu/stereo/data/scenes2005/)
+* [MNIST](https://opendatalab.com/OpenDataLab/MNIST/tree/main)
 
 3.Structure of the datasets should be：
   ```
