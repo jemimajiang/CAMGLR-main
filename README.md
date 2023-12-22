@@ -16,7 +16,7 @@
 ## Preparing Data
 1. To build **training** dataset, you'll also need following datasets. All the images needs to be converted to **gray scale**.
 * [Middlebury2006](https://vision.middlebury.edu/stereo/data/scenes2006/)
-* [BSD68]()
+* [BSD68](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) and converted the images to gray scale by using the cvtColor function in OpenCV.
 * [Waterloo](https://ivc.uwaterloo.ca/database/WaterlooExploration/exploration_database_and_code.rar)
 
 2. To build **validation/testing** dataset, you'll also need following datasets. All the images needs to be cropped into a square, and resize to **70*70**.
@@ -48,3 +48,6 @@
     python test.py
     ```
     * To test with different settings, modify ```GPU_ID```, ```CROP_SIZE```, ```TRAIN_BATCH_SIZE```, ```EPISODE_LEN``` as you need.
+      
+## References
+We used the publicly avaliable models of [[Zhang+, CVPR17]](http://openaccess.thecvf.com/content_cvpr_2017/html/Zhang_Learning_Deep_CNN_CVPR_2017_paper.html) as the initial weights of our model except for the convGRU and the last layers. We obtained the weights from [here](https://github.com/cszn/DnCNN) and converted them from MatConvNet format to caffemodel in order to read them with Chainer.
